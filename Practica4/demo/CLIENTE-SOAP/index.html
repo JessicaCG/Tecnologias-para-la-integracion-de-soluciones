@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cliente</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    </head>
+
+    <body>
+        <!--form action="http://localhost:8081/ws/calculadora" method="POST"-->
+        <form>
+            <label form="a">Ingresa un valor:</label>
+            <input type="text" id="a" name="a" placeholder="Ingresa un número"><br>
+            <label for="b">Ingresa un valor:</label>
+            <input type="text" id="b" name="b" placeholder="Ingresa un número"><br>
+            <label form="r">resultado</label>
+            <input type="text" id="r"><br>
+            <input type="button" value="Hacer petición" onclick="soap()">
+        </form>
+
+        <script src="soap.js"></script>
+    </body>
+    
+</html>
